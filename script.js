@@ -1,6 +1,6 @@
 // Function for countdown
 function countdown() {
-    const ramadanDate = new Date('February 28, 2025 00:00:00').getTime(); // Adjust the date
+    const ramadanDate = new Date('March 02, 2025 00:00:00').getTime(); // Adjust the date
     const now = new Date().getTime();
     const timeDifference = ramadanDate - now;
   
